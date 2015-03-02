@@ -1,1 +1,1 @@
-# wdd-group
+<!--Please include a writeup explaining the design decision you made for each of the views in your submission. In particular, you should mention your design decisions in terms of: spacing, positioning, typography & images, and color.--!>
