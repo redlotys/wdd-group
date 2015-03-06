@@ -1,8 +1,37 @@
+body{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#navbar{
+	position: fixed;
+	background-color: black;
+	color: white;
+	width: 100%;
+	padding: 8px;
+}
+
+.navbutton{
+	display: block;
+	padding: 8px;
+	margin: 4px;
+	font-family: Roboto;
+	font-size: 12px;
+	letter-spacing: 2px;
+	float: right;
+}
 
 #container{
-  
+	position: relative;
+	top: 44px;
+	width: 960px;
+	margin: 0 auto;
+	padding: 28px 0px;
 }
 
 #header{
-  
+	font-family: Pacifico;
+	font-size: 100px;
+	line-height: 150%;
+	text-align: center;
 }
