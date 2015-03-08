@@ -119,4 +119,14 @@ div {
 	width: 100%;
 	background: black;
 	height: 96px;
+	overflow: hidden;
+	padding: 8px;
+}
+
+#bottombar li {
+	font-size: 12px;
+	font-family: Roboto;
+	letter-spacing: 2px;
+	height: 40px;
+	display: inline-block;
 }
