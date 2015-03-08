@@ -120,7 +120,6 @@ div {
 	background: black;
 	height: 96px;
 	overflow: hidden;
-	padding: 8px;
 }
 
 #bottombar li {
@@ -129,4 +128,7 @@ div {
 	letter-spacing: 2px;
 	height: 40px;
 	display: inline-block;
+	color: white;
+	float: right;
+	padding: 8px;
 }
