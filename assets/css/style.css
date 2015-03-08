@@ -64,12 +64,13 @@ body {
 }
 
 .category-box:hover {
-  background-color: lightslategray;
+  background-color: gray;
   opacity: 0.5;
 }
 
 #for-sale {
   text-decoration: none;
+  color: black;
 }
 
 .bottombar {
