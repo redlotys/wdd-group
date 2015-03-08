@@ -120,6 +120,8 @@ div {
 	background: black;
 	height: 96px;
 	overflow: hidden;
+	position: fixed;
+	bottom: 0px;
 }
 
 #bottombar li {
