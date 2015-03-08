@@ -1,6 +1,7 @@
 body {
   font-family: Roboto;
   text-align: center; 
+  margin: 0px auto;
 }
 
 .navbar ul {
@@ -44,17 +45,25 @@ body {
 
 #container {
   width: 960x;
-  margin: 0px auto;
   padding: 30px 0px;
 }
 
+#craigslist {
+  font-family: Pacifico;
+  font-size: 75px;
+}
+
 #container li {
-  font-size: 20px;
+  font-size: 40px;
   line-height: 40px;
   height: 40px;
   display: inline-block;
   text-decoration: none;
   padding: 10px 20px;
+}
+
+.category-box {
+  
 }
 
 .category-box:hover {
