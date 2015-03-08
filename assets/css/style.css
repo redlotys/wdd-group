@@ -1,97 +1,138 @@
-body {
-  font-family: Roboto;
-  text-align: center; 
-  margin: 0px auto;
+body{
+	margin: 0;
 }
 
-.navbar ul {
-  background-color: lightgray;
+div {
+	transition: linear 0.1s;
 }
 
-.navbar li {
-  font-size: 20px;
-  line-height: 40px;
-  height: 40px;
-  display: inline-block;
-  text-decoration: none;
-  padding: 10px 20px;
+.photo img{
+	display:block;
+	position: relative;
+	right: 24px;
+	bottom: 100px;
+	width:312px;
+	object-fit: cover;
+	z-index: -999;
+	filter: brightness(25%);
+	opacity: 0.7;
 }
 
-.searchbar {
-  float: left;
+#navbar{
+	position: fixed;
+	background-color: black;
+	color: white;
+	width: 100%;
+	padding: 8px;
+	z-index:999999;
+	font-family: Roboto;
+	font-size: 12px;
+	letter-spacing: 2px;
+	overflow:hidden;
 }
 
-.craigslist {
-  font-family: Pacifico;
+#searchbar{
+	display: block;
+	float: left;
+	margin-left: 16px;
+	margin-right: 4px;
+	margin-top: 8px;
 }
 
-.my-account {
-  float: right;
+#searchbutton{
+	display: inline-block;
+	margin-left: 16px;
+	background: #f2f1ef;
+	color: black;
+	padding: 4px 8px;
+	border-radius: 10%;
 }
 
-.post {
-  float: right;
+.navbutton{
+	display: inline-block;
+	padding: 8px 4px;
+	margin-left: 4px;
+	margin-right: 16px;
+	margin-bottom: 0px;
+	margin-top: 4px;
+	float: right;
 }
 
-.post:hover {
-  background-color: lightslategray;
-  opacity: 0.5;
+.dropdown{
+	display: inline-block;
+	margin-right: 8px;
+	margin-top: 8px;
+	margin-left: 8px;
 }
 
-.my-account:hover {
-  background-color: lightslategray;
-  opacity: 0.5;
+#region{
+	float: left;
 }
 
-#container {
-  width: 960x;
-  padding: 30px 0px;
+#language{
+	float: right;
 }
 
-#craigslist {
-  font-family: Pacifico;
-  font-size: 80px;
-  padding-bottom: 30px;
+#container{
+	position: relative;
+	top: 88px;
+	width: 960px;
+	margin-bottom: 120px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#container li {
-  font-size: 40px;
-  line-height: 40px;
-  height: 40px;
-  display: inline-block;
-  text-decoration: none;
-  padding: 10px 20px;
+.category-box{
+	display: inline-block;
+	font-family: Roboto;
+	font-size: 32px;
+	color: white;
+	letter-spacing: 3px;
+	line-height: 60px;
+	width: 240px;
+	height: 108px;
+	margin: 0px;
+	padding: 48px 36px 12px 36px;
+	text-align: center;
+	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
 }
 
-.category-box:hover {
-  background-color: lightgray;
-  opacity: 0.5;
+.category-box:hover{
+	color: #22313f;
 }
 
-#for-sale {
-  text-decoration: none;
-  color: black;
+.photo:hover{
+	-webkit-filter: blur(2px);
+	opacity: 0.3;
 }
 
-.bottombar {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
+#craigslist{
+	font-family: Pacifico;
+	font-size: 56px;
+	line-height: 60px;
+	letter-spacing: 0px;
+	text-align: center;
 }
 
-.bottombar ul {
-  background-color: lightgray;
+#community{
+	
 }
 
-.bottombar li {
-  font-size: 20px;
-  line-height: 40px;
-  height: 40px;
-  display: inline-block;
-  text-decoration: none;
-  padding: 10px 20px;
+#housing{
+	
 }
 
-.bottombar li:hover {
-  background-color: lightslategray;
-  opacity: 0.5;
+#personals{
+
+}
+
+#for-sale{
+
+}
+
+#bottombar{
+	width: 100%;
+	background: black;
+	height: 96px;
+}
