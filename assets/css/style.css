@@ -1,1 +1,49 @@
+body {
+  font-family: Roboto;
+  text-align: center; 
+}
+
+.navbar ul {
+  list-style: none;
+  background-color: lightgray;
+}
+
+.navbar li {
+  font-size: 20px;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.searchbar {
+  position: absolute;
+  left: 0px;
+}
+
+.post {
+  position: absolute;
+  right: 0px;
+}
+
+.my-account {
+  position: relative;
+  left: 650px;
+}
+
+.post:hover {
+  background-color: lightslategray;
+}
+
+.my-account:hover {
+  background-color: lightslategray;
+}
+
+#container {
+  width: 960x;
+  margin: 0px auto;
+  padding: 30px 0px;
+}
 
