@@ -64,7 +64,7 @@ body {
 }
 
 .category-box:hover {
-  background-color: gray;
+  background-color: lightgray;
   opacity: 0.5;
 }
 
