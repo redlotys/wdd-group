@@ -4,7 +4,6 @@ body {
 }
 
 .navbar ul {
-  list-style: none;
   background-color: lightgray;
 }
 
@@ -12,33 +11,35 @@ body {
   font-size: 20px;
   line-height: 40px;
   height: 40px;
-  border-bottom: 1px solid #888;
   display: inline-block;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 20px;
 }
 
 .searchbar {
-  position: absolute;
-  left: 0px;
+  float: left;
 }
 
-.post {
-  position: absolute;
-  right: 0px;
+.craigslist {
+  font-family: Pacifico;
 }
 
 .my-account {
-  position: relative;
-  left: 650px;
+  float: right;
+}
+
+.post {
+  float: right;
 }
 
 .post:hover {
   background-color: lightslategray;
+  opacity: 0.5;
 }
 
 .my-account:hover {
   background-color: lightslategray;
+  opacity: 0.5;
 }
 
 #container {
@@ -47,3 +48,39 @@ body {
   padding: 30px 0px;
 }
 
+#container li {
+  font-size: 20px;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.category-box:hover {
+  background-color: lightslategray;
+  opacity: 0.5;
+}
+
+.bottombar {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.bottombar ul {
+  background-color: lightgray;
+}
+
+.bottombar li {
+  font-size: 20px;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.bottombar li:hover {
+  background-color: lightslategray;
+  opacity: 0.5;
