@@ -1,9 +1,9 @@
 body{
-	margin: 0;
+	margin: auto;
 }
 
 div {
-	transition: linear 0.1s;
+	
 }
 
 .photo img{
@@ -75,7 +75,7 @@ div {
 
 #container{
 	position: relative;
-	top: 88px;
+	top: 133px;
 	width: 960px;
 	margin-bottom: 120px;
 	margin-left: auto;
@@ -98,13 +98,13 @@ div {
 	overflow: hidden;
 }
 
-.category-box:hover{
-	color: #22313f;
-}
-
-.photo:hover{
+.category-box:hover .photo {
 	-webkit-filter: blur(2px);
 	opacity: 0.3;
+	transition: linear 0.1s;
+}
+.category-box:hover {
+	color: #22313f;	
 }
 
 #craigslist{
@@ -118,7 +118,7 @@ div {
 #bottombar{
 	width: 100%;
 	background: black;
-	height: 96px;
+	height: 76px;
 	overflow: hidden;
 	position: fixed;
 	bottom: 0px;
@@ -128,7 +128,7 @@ div {
 	font-size: 12px;
 	font-family: Roboto;
 	letter-spacing: 2px;
-	height: 40px;
+	height: 20px;
 	display: inline-block;
 	color: white;
 	float: right;
