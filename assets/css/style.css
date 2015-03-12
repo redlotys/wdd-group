@@ -143,7 +143,6 @@ div {
 	margin-top: 40px;
 	padding: 25px 8px;
 	font-family: Roboto;
-	font-size: 12px;
 	letter-spacing: 2px;
 	overflow:hidden;
 	text-align: center;
@@ -156,6 +155,39 @@ div {
 }
 
 .keywords {
+	display: inline-block;
+	font-size: 17px;
+	padding: 0px 8px 8px;
+}
+
+#rightbar {
+  position: fixed;
+	background-color: aliceblue;
+	height: 100%;
+	width: 150px;
+	margin-top: 40px;
+	padding: 25px 8px;
+	font-family: Roboto;
+	letter-spacing: 2px;
+	overflow:hidden;
+	text-align: center;
+	right: 0px;
+}
+
+#starred-title {
+	font-style: italic;
+	font-size: 20px;
+	padding: 8px 3px;
+	float: left;
+}
+
+#star img {
+	max-height: 40px;
+	float: left;
+	padding-left: 10px;
+}
+
+.starred-item {
 	display: inline-block;
 	font-size: 17px;
 	padding: 0px 8px 8px;
