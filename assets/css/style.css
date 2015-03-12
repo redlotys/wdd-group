@@ -206,4 +206,9 @@ div {
 
 a {
 	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	opacity: 0.5;
 }
