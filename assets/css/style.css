@@ -194,16 +194,16 @@ div {
 }
 
 .list-item {
-	text-decoration: none;
 	font-family: Roboto;
 	font-size: 32px;
 	letter-spacing: 3px;
-	line-height: 60px;
-	width: 240px;
-	height: 108px;
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
-	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+	text-align: left;
 	overflow: hidden;
+	background-color: #f5f5f5;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
 }
