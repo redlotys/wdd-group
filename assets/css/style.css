@@ -178,6 +178,7 @@ div {
 #starred-title {
 	font-style: italic;
 	font-size: 20px;
+	font-weight: 700;
 	padding: 8px 3px;
 	float: left;
 }
@@ -190,7 +191,8 @@ div {
 
 .starred-item {
 	display: inline-block;
-	font-size: 17px;
+	font-size: 16px;
+	font-weight: 300;
 	padding: 0px 8px 8px;
 }
 
@@ -214,9 +216,12 @@ div {
 }
 
 .item-description{
+	display: inline-block;
+	width: 500px;
 	font-family: Roboto;
-	font-size: 16px;
-	font-height: 24px;
+	font-size: 12px;
+	opacity: 0.8;
+	line-height: 18px;
 	padding: 4px;
 }
 
