@@ -137,7 +137,7 @@ div {
 }
 
 #leftbar {
-  position: fixed;
+	position: fixed;
 	background-color: aliceblue;
 	height: 100%;
 	margin-top: 40px;
@@ -161,7 +161,8 @@ div {
 }
 
 #rightbar {
-  position: fixed;
+	position: fixed;
+	display: inline-block;
 	background-color: aliceblue;
 	height: 100%;
 	width: 150px;
@@ -202,6 +203,21 @@ div {
 	background-color: #f5f5f5;
 	padding: 20px;
 	margin-bottom: 20px;
+}
+
+.item-title{
+	font-family: Roboto;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 48px;
+	padding: 4px;
+}
+
+.item-description{
+	font-family: Roboto;
+	font-size: 16px;
+	font-height: 24px;
+	padding: 4px;
 }
 
 a {
