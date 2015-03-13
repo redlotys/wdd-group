@@ -116,6 +116,7 @@ div {
 .category-box:hover .photo {
 	-webkit-filter: blur(2px);
 	opacity: 0.3;
+	padding: 1px 0px 0px 0px;
 	transition: linear 0.1s;
 }
 .category-box:hover {
