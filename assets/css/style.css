@@ -83,6 +83,15 @@ div {
 	margin-right: auto;
 }
 
+.content{
+	position: relative;
+	top: 133px;
+	display: inline-block;
+	margin-bottom: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .category-box{
 	display: inline-block;
 	font-family: Roboto;
@@ -162,7 +171,6 @@ div {
 
 #rightbar {
 	position: fixed;
-	display: inline-block;
 	background-color: aliceblue;
 	height: 100%;
 	width: 150px;
@@ -196,6 +204,7 @@ div {
 }
 
 .list-item {
+	display: block;
 	font-family: Roboto;
 	font-size: 32px;
 	letter-spacing: 3px;
@@ -215,7 +224,6 @@ div {
 }
 
 .item-description{
-	display: inline-block;
 	width: 500px;
 	font-family: Roboto;
 	font-size: 12px;
