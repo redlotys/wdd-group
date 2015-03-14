@@ -33,6 +33,12 @@ body{
 	margin-right: 8px;
 	-webkit-filter: invert(100%);
 	float: left;
+	transition: linear 0.2s;
+}
+
+#home-logo img:hover {
+	-webkit-transform:scale(1.2);
+	transition: linear 0.2s;
 }
 
 #searchbar{
