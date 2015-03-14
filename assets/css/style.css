@@ -148,6 +148,7 @@ body{
 	padding: 1px 0px 0px 0px;
 	transition: linear 0.1s;
 }
+
 .category-box:hover {
 	color: #22313f;	
 }
@@ -298,14 +299,25 @@ body{
 	overflow: hidden;
 }
 
+.item-picture img {
+	padding-top: 50px;
+	padding-left: 100px;
+	display: block;
+	float: left;
+	max-width: 500px;
+}
+
 .item-description{
 	display: block;
 	font-family: Roboto;
 	font-size: 12px;
 	opacity: 0.8;
 	line-height: 18px;
-	padding: 4px;
+	padding-top: 50px;
+	padding-right: 100px;
 	overflow: hidden;
+	max-width: 500px;
+	float: right;
 }
 
 a {
