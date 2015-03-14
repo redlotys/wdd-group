@@ -22,10 +22,17 @@ body{
 	height: 40px;
 	padding: 8px;
 	z-index:999999;
-	font-family: Roboto;
-	font-size: 12px;
-	letter-spacing: 2px;
 	overflow:hidden;
+}
+
+#home-logo img{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-left: 4px;
+	margin-right: 8px;
+	-webkit-filter: invert(100%);
+	float: left;
 }
 
 #searchbar{
@@ -64,6 +71,9 @@ body{
 
 .navbutton{
 	display: inline-block;
+	font-family: Roboto;
+	font-size: 12px;
+	letter-spacing: 2px;
 	padding: 8px 4px;
 	margin-left: 4px;
 	margin-right: 16px;
