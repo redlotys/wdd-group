@@ -240,8 +240,7 @@ body{
 	background: black;
 	padding: 8px 20px;
 	border-radius: 4px;
-	margin-left: 4px;
-	margin-right: 4px;
+	margin: 4px 8px;
 	transition: linear 0.4s;
 }
 
