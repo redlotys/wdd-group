@@ -247,20 +247,28 @@ body{
 }
 
 #starred-title {
+	position: relative;
 	display: inline-block;
 	font-family: Pacifico;
 	letter-spacing: 0px;
 	font-size: 28px;
-	padding: 8px 3px;
-	margin: 0 auto;
+	padding: 8px;
+	right: 16px;
 	overflow:hidden;
 	text-align: center;
 }
 
+#star{
+	position: relative;
+	display: inline-block;
+	padding: 1px;
+	margin: 2px;
+	bottom: 12px;
+}
+
 #star img {
-	max-height: 40px;
-	float: left;
-	padding-left: 10px;
+	width: 40px;
+	height: 40px;
 }
 
 .starred-item {
