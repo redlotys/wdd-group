@@ -314,10 +314,10 @@ body{
 	display: inline-block;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
+	/*transform: translateY(-50%);*/
+	margin-top: -30px;
 	height: 60px;
 	overflow: hidden;
-	
 }
 
 .list-title:hover{
@@ -355,6 +355,8 @@ body{
 .list-item:hover{
 	border: 2px solid #f5f5f5;
 }
+
+
 
 .item-title{
 	display: block;
