@@ -327,12 +327,13 @@ body{
 	display: inline-block;
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%);
 	width: 60px;
 	height: 60px;
 	margin-left: 8px;
 	margin-right: 8px;
-	background: black;
+	margin-top: 6px;
+	float: left;
+	object-fit: cover;
 }
 
 .list-item {
@@ -346,6 +347,7 @@ body{
 	padding: 4px;
 	margin: 20px;
 	text-align: left;
+	position: relative;
 }
 
 .list-item:hover{
@@ -360,6 +362,8 @@ body{
 	line-height: 48px;
 	padding: 4px;
 	overflow: hidden;
+	position: absolute;
+	top: 50%;
 }
 
 .item-picture{
