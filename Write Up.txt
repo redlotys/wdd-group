@@ -1,1 +1,2 @@
-We decided to put the searchbar in the upper left corner, because we wanted the focus of our website to be the different categories and the items posted, rather than the search feature.
+We decided to put the searchbar in the upper left corner, because we wanted the focus of our website to be the different categories and the items posted, rather than the search feature. We decided to put nine pictures in the middle of the web page, becuase we want to use those nine pictures to represent nine
+categories, and using thoes to lead people to choose the category they want. 
