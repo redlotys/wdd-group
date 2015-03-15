@@ -364,6 +364,7 @@ body{
 	overflow: hidden;
 	position: absolute;
 	top: 50%;
+	float: right;
 }
 
 .item-picture{
