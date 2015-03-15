@@ -228,6 +228,10 @@ body{
 	right: 0px;
 }
 
+.hr-divider{
+	margin: 8px;
+}
+
 #update-search{
 	display: inline-block;
 	font-size: 12px;
@@ -235,7 +239,7 @@ body{
 	color: white;
 	background: black;
 	padding: 8px 20px;
-	border-radius: 2px;
+	border-radius: 4px;
 	margin-left: 4px;
 	margin-right: 4px;
 	transition: linear 0.4s;
@@ -244,18 +248,6 @@ body{
 #update-search:hover{
 	opacity: 0.7;
 	transition: linear 0.4s;
-}
-
-#starred-title {
-	position: relative;
-	display: inline-block;
-	font-family: Pacifico;
-	letter-spacing: 0px;
-	font-size: 28px;
-	padding: 8px;
-	right: 16px;
-	overflow:hidden;
-	text-align: center;
 }
 
 #star{
@@ -269,6 +261,22 @@ body{
 #star img {
 	width: 40px;
 	height: 40px;
+}
+
+#starred{
+	height: 48px;
+}
+
+#starred-title {
+	position: relative;
+	display: inline-block;
+	font-family: Pacifico;
+	letter-spacing: 0px;
+	font-size: 28px;
+	padding: 8px;
+	right: 16px;
+	overflow:hidden;
+	text-align: center;
 }
 
 .starred-item {
