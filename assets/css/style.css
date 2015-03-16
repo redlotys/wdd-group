@@ -339,18 +339,21 @@ body{
 	height: 28px;
 }
 
-.list-title{
+.list-description{
 	display: inline-block;
 	position: absolute;
-	top: 50%;
 	/*transform: translateY(-50%);*/
-	margin-top: -30px;
 	height: 60px;
 	overflow: hidden;
+	margin-top: 6px;
 }
 
 .list-title:hover{
 	font-style: italic;
+}
+
+.list-title, .list-price, .list-location {
+	display: block;
 }
 
 .list-icon img{
