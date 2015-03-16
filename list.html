@@ -89,7 +89,27 @@
 				<option value="toys-games">Toys & Games</option>
 			</select>
 			</div>
-			<a href="list.html"><div id="update-search">Update</div><a>
+			<a href="list.html"><div id="update-search">Update</div></a>
+			<br>
+			<div class="page-navigation" id="first-page">
+				<<
+			</div>
+			<div class="page-navigation" id="previous-page">
+				<
+			</div>
+			<div class="page-navigation" id="current-page">
+				1-20 of <a href="list.html">12345</a>
+			</div>
+			<a href="list.html">
+				<div class="page-navigation" id="next-page">
+					>
+				</div>
+			</a>
+			<a href="list.html">
+				<div class="page-navigation" id="last-page">
+					>>
+				</div>
+			</a>
 			<div class="hr-divider"><hr></div>
 			<div class="list-item" id="free">
 				<div class="list-icon">
@@ -144,18 +164,28 @@
 			</div>
 		</div>
 		<div class="hr-divider"><hr></div>
-		<div class="starred-item" id="cactus">
-			Free cactus
+		<div class="starred-item">
+			<div class="star-bullet">
+				<img src="assets/img/star.png">
+			</div>
+			<div class="starred-item-title" id="cactus">
+				Free cactus
+			</div>
 		</div>
-		<div class="starred-item" id="microwave">
-			1,000 watt microwave
+		<div class="starred-item">
+			<div class="star-bullet">
+				<img src="assets/img/star.png">
+			</div>
+			<div class="starred-item-title" id="microwave">
+				Microwave
+			</div>
 		</div>
 	</div>
 	<div id="bottombar">
 		<ul>
-			<li class="faqs">FAQs</li>
-			<li class="about-us">About Us</li>
-			<li class="contact-us">Contact Us</li>
+			<li id="faqs">FAQs</li>
+			<li id="about-us">About Us</li>
+			<li id="contact-us">Contact Us</li>
 		</ul>
 	</div>
 </body>
