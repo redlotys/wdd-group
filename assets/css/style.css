@@ -424,6 +424,11 @@ body{
 	margin: 0px 5px 0px;
 }
 
+.item-more-pictures:hover {
+	opacity: 0.7;
+	transform: linear 4s;
+}
+
 .item-description{
 	display: block;
 	font-family: Roboto;
