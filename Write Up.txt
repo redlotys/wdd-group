@@ -6,6 +6,6 @@ laid out in a grid. The text label for each category image was white with some t
 colorful images and made it readable. We also decided to give the site a black navigation bar with white text that had a bit of 
 letter spacing, in order to keep the design clean but elegant. We decided to put the searchbar in the upper left corner, because 
 we felt that while it was an essential feature of a classifieds website, we wanted to focus the user's attention on the array of 
-categories and to encourage them to explore the website.
+categories and to encourage them to use those to explore the website.
 
-
+In the list view, 
