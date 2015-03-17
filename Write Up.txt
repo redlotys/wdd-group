@@ -2,9 +2,10 @@ Upon first glance, the [real] Craigslist homepage layout resembles the classifie
 with text and no images. Despite the bland layout, several main functions are clear: post, search, pick a sub/category, and change 
 location. In redesigning the homepage, our group decided to retain the usefulness that the categories (community, personals, housing,
 etc.) provide, while making them more inviting to the user to click on through the use of images to represent each of the categories,
-laid out in a grid. We also decided to give the site a black navigation bar with white text that had a bit of letter spacing on it, 
-in order to keep the design clean but elegant. We decided to put the searchbar in the upper left corner, because we felt that
-while it was an essential feature of a classifieds website, we wanted to focus the user's attention on the array of categories 
-and to encourage them to explore the website.
+laid out in a grid. The text label for each category image was white with some text shadow, which gave it some contrast over the 
+colorful images and made it readable. We also decided to give the site a black navigation bar with white text that had a bit of 
+letter spacing, in order to keep the design clean but elegant. We decided to put the searchbar in the upper left corner, because 
+we felt that while it was an essential feature of a classifieds website, we wanted to focus the user's attention on the array of 
+categories and to encourage them to explore the website.
 
 
