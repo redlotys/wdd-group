@@ -8,4 +8,16 @@ letter spacing, in order to keep the design clean but elegant. We decided to put
 we felt that while it was an essential feature of a classifieds website, we wanted to focus the user's attention on the array of 
 categories and to encourage them to use those to explore the website.
 
-In the list view, 
+In the list view, we added a left and right bar with a light gray background with some features that the user might find useful 
+(map displaying location for various results, popular keywords, starred items list). The color gray was meant to create a subtle 
+contrast with the content in the center of the page without drawing too much attention away from it. The headers "Popular 
+Keywords" and "Starred" are actually in the cursive Pacifico font used for "Craigslist" in the homepage, and this was to add some 
+aesthetics while further emphasizing the functions of those headers. These two bars are in position: fixed, so that they are 
+always there for the user to refer to. Each of the list entries is contained in a light blue box, and we think the black text 
+over this blue color creates enough contrast for the entry description to be readable, while the differences in font size, 
+weight, and style between different parts of the list entry reinforce different levels of importance. 
+
+Finally, in the item view, we retained the gray left and right bars for consistency and mainly changed the center column. 
+The layout is a basic image (with subimages) above a block of description text. We kept this content layout simple and predictable 
+and spaced each element out enough so that the images and text did not appear to touch the edges of the screen or borders with 
+the left and right bars.
